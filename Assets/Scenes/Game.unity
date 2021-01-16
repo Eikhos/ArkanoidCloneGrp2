@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 16406591}
   - component: {fileID: 16406592}
   - component: {fileID: 16406593}
+  - component: {fileID: 16406594}
   m_Layer: 0
   m_Name: Green_Brick (6)
   m_TagString: Untagged
@@ -216,6 +217,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hitpoints: 1
+--- !u!61 &16406594
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16406590}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1001 &126016509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -296,6 +323,7 @@ GameObject:
   - component: {fileID: 253093486}
   - component: {fileID: 253093487}
   - component: {fileID: 253093488}
+  - component: {fileID: 253093489}
   m_Layer: 0
   m_Name: Green_Brick (3)
   m_TagString: Untagged
@@ -380,6 +408,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hitpoints: 1
+--- !u!61 &253093489
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253093485}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1 &285633949
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,6 +522,7 @@ GameObject:
   - component: {fileID: 387192802}
   - component: {fileID: 387192804}
   - component: {fileID: 387192803}
+  - component: {fileID: 387192805}
   m_Layer: 0
   m_Name: Blue_Brick
   m_TagString: Untagged
@@ -552,6 +607,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &387192805
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387192801}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!4 &390444918 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1473403158976454211, guid: ac6d226ab51543e4ea38e615d4f7a3ea,
@@ -664,6 +745,7 @@ GameObject:
   - component: {fileID: 501735854}
   - component: {fileID: 501735856}
   - component: {fileID: 501735855}
+  - component: {fileID: 501735857}
   m_Layer: 0
   m_Name: Blue_Brick (5)
   m_TagString: Untagged
@@ -748,6 +830,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &501735857
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501735853}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1 &501892348
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,6 +993,7 @@ GameObject:
   - component: {fileID: 549974022}
   - component: {fileID: 549974023}
   - component: {fileID: 549974024}
+  - component: {fileID: 549974025}
   m_Layer: 0
   m_Name: Orange_Brick
   m_TagString: Untagged
@@ -969,6 +1078,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hitpoints: 1
+--- !u!61 &549974025
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549974021}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1001 &603805938
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1049,6 +1184,7 @@ GameObject:
   - component: {fileID: 618186377}
   - component: {fileID: 618186379}
   - component: {fileID: 618186378}
+  - component: {fileID: 618186380}
   m_Layer: 0
   m_Name: Blue_Brick (3)
   m_TagString: Untagged
@@ -1133,6 +1269,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &618186380
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618186376}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1 &665100412
 GameObject:
   m_ObjectHideFlags: 0
@@ -1144,6 +1306,7 @@ GameObject:
   - component: {fileID: 665100413}
   - component: {fileID: 665100415}
   - component: {fileID: 665100414}
+  - component: {fileID: 665100416}
   m_Layer: 0
   m_Name: Blue_Brick (15)
   m_TagString: Untagged
@@ -1228,6 +1391,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &665100416
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665100412}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1001 &689846383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1308,6 +1497,7 @@ GameObject:
   - component: {fileID: 758350914}
   - component: {fileID: 758350915}
   - component: {fileID: 758350916}
+  - component: {fileID: 758350917}
   m_Layer: 0
   m_Name: Green_Brick (5)
   m_TagString: Untagged
@@ -1392,6 +1582,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hitpoints: 1
+--- !u!61 &758350917
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758350913}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1 &863255729
 GameObject:
   m_ObjectHideFlags: 0
@@ -1403,6 +1619,7 @@ GameObject:
   - component: {fileID: 863255730}
   - component: {fileID: 863255731}
   - component: {fileID: 863255732}
+  - component: {fileID: 863255733}
   m_Layer: 0
   m_Name: Orange_Brick (1)
   m_TagString: Untagged
@@ -1487,6 +1704,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hitpoints: 1
+--- !u!61 &863255733
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863255729}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1 &1108640044
 GameObject:
   m_ObjectHideFlags: 0
@@ -1581,6 +1824,7 @@ GameObject:
   - component: {fileID: 1110147753}
   - component: {fileID: 1110147754}
   - component: {fileID: 1110147755}
+  - component: {fileID: 1110147756}
   m_Layer: 0
   m_Name: Green_Brick (1)
   m_TagString: Untagged
@@ -1665,6 +1909,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hitpoints: 1
+--- !u!61 &1110147756
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110147752}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1 &1188707471
 GameObject:
   m_ObjectHideFlags: 0
@@ -1676,6 +1946,7 @@ GameObject:
   - component: {fileID: 1188707472}
   - component: {fileID: 1188707474}
   - component: {fileID: 1188707473}
+  - component: {fileID: 1188707475}
   m_Layer: 0
   m_Name: Blue_Brick (2)
   m_TagString: Untagged
@@ -1760,6 +2031,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1188707475
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188707471}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1 &1216188597
 GameObject:
   m_ObjectHideFlags: 0
@@ -1771,6 +2068,7 @@ GameObject:
   - component: {fileID: 1216188598}
   - component: {fileID: 1216188599}
   - component: {fileID: 1216188600}
+  - component: {fileID: 1216188601}
   m_Layer: 0
   m_Name: Green_Brick
   m_TagString: Untagged
@@ -1855,6 +2153,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hitpoints: 1
+--- !u!61 &1216188601
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216188597}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1 &1224955797
 GameObject:
   m_ObjectHideFlags: 0
@@ -1866,6 +2190,7 @@ GameObject:
   - component: {fileID: 1224955798}
   - component: {fileID: 1224955800}
   - component: {fileID: 1224955799}
+  - component: {fileID: 1224955801}
   m_Layer: 0
   m_Name: Blue_Brick (11)
   m_TagString: Untagged
@@ -1950,6 +2275,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1224955801
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224955797}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1 &1270024944
 GameObject:
   m_ObjectHideFlags: 0
@@ -2032,6 +2383,7 @@ GameObject:
   - component: {fileID: 1272523315}
   - component: {fileID: 1272523316}
   - component: {fileID: 1272523317}
+  - component: {fileID: 1272523318}
   m_Layer: 0
   m_Name: Green_Brick (7)
   m_TagString: Untagged
@@ -2116,6 +2468,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hitpoints: 1
+--- !u!61 &1272523318
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272523314}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1 &1337863137
 GameObject:
   m_ObjectHideFlags: 0
@@ -2127,6 +2505,7 @@ GameObject:
   - component: {fileID: 1337863138}
   - component: {fileID: 1337863140}
   - component: {fileID: 1337863139}
+  - component: {fileID: 1337863141}
   m_Layer: 0
   m_Name: Blue_Brick (10)
   m_TagString: Untagged
@@ -2211,6 +2590,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1337863141
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337863137}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1 &1461309863
 GameObject:
   m_ObjectHideFlags: 0
@@ -2222,6 +2627,7 @@ GameObject:
   - component: {fileID: 1461309864}
   - component: {fileID: 1461309866}
   - component: {fileID: 1461309865}
+  - component: {fileID: 1461309867}
   m_Layer: 0
   m_Name: Blue_Brick (1)
   m_TagString: Untagged
@@ -2306,6 +2712,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1461309867
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461309863}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1 &1602075844
 GameObject:
   m_ObjectHideFlags: 0
@@ -2317,6 +2749,7 @@ GameObject:
   - component: {fileID: 1602075845}
   - component: {fileID: 1602075847}
   - component: {fileID: 1602075846}
+  - component: {fileID: 1602075848}
   m_Layer: 0
   m_Name: Blue_Brick (8)
   m_TagString: Untagged
@@ -2401,6 +2834,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1602075848
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602075844}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1 &1638502033
 GameObject:
   m_ObjectHideFlags: 0
@@ -2412,6 +2871,7 @@ GameObject:
   - component: {fileID: 1638502034}
   - component: {fileID: 1638502036}
   - component: {fileID: 1638502035}
+  - component: {fileID: 1638502037}
   m_Layer: 0
   m_Name: Blue_Brick (6)
   m_TagString: Untagged
@@ -2496,6 +2956,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1638502037
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638502033}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1 &1683400844
 GameObject:
   m_ObjectHideFlags: 0
@@ -2507,6 +2993,7 @@ GameObject:
   - component: {fileID: 1683400845}
   - component: {fileID: 1683400847}
   - component: {fileID: 1683400846}
+  - component: {fileID: 1683400848}
   m_Layer: 0
   m_Name: Blue_Brick (12)
   m_TagString: Untagged
@@ -2591,6 +3078,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1683400848
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683400844}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1 &1702511431
 GameObject:
   m_ObjectHideFlags: 0
@@ -2703,6 +3216,7 @@ GameObject:
   - component: {fileID: 1713756586}
   - component: {fileID: 1713756588}
   - component: {fileID: 1713756587}
+  - component: {fileID: 1713756589}
   m_Layer: 0
   m_Name: Blue_Brick (13)
   m_TagString: Untagged
@@ -2787,6 +3301,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1713756589
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713756585}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1 &1742562977
 GameObject:
   m_ObjectHideFlags: 0
@@ -2798,6 +3338,7 @@ GameObject:
   - component: {fileID: 1742562978}
   - component: {fileID: 1742562980}
   - component: {fileID: 1742562979}
+  - component: {fileID: 1742562981}
   m_Layer: 0
   m_Name: Blue_Brick (4)
   m_TagString: Untagged
@@ -2882,6 +3423,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1742562981
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742562977}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1 &1791230975
 GameObject:
   m_ObjectHideFlags: 0
@@ -2893,6 +3460,7 @@ GameObject:
   - component: {fileID: 1791230976}
   - component: {fileID: 1791230978}
   - component: {fileID: 1791230977}
+  - component: {fileID: 1791230979}
   m_Layer: 0
   m_Name: Blue_Brick (7)
   m_TagString: Untagged
@@ -2977,6 +3545,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1791230979
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791230975}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1 &1831478952
 GameObject:
   m_ObjectHideFlags: 0
@@ -3035,6 +3629,7 @@ GameObject:
   - component: {fileID: 1856205360}
   - component: {fileID: 1856205361}
   - component: {fileID: 1856205362}
+  - component: {fileID: 1856205363}
   m_Layer: 0
   m_Name: Green_Brick (2)
   m_TagString: Untagged
@@ -3119,6 +3714,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hitpoints: 1
+--- !u!61 &1856205363
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856205359}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1 &1938377471
 GameObject:
   m_ObjectHideFlags: 0
@@ -3130,6 +3751,7 @@ GameObject:
   - component: {fileID: 1938377472}
   - component: {fileID: 1938377474}
   - component: {fileID: 1938377473}
+  - component: {fileID: 1938377475}
   m_Layer: 0
   m_Name: Blue_Brick (14)
   m_TagString: Untagged
@@ -3214,6 +3836,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1938377475
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938377471}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1 &1940073545
 GameObject:
   m_ObjectHideFlags: 0
@@ -3281,6 +3929,7 @@ GameObject:
   - component: {fileID: 1944997906}
   - component: {fileID: 1944997907}
   - component: {fileID: 1944997908}
+  - component: {fileID: 1944997909}
   m_Layer: 0
   m_Name: Green_Brick (4)
   m_TagString: Untagged
@@ -3365,6 +4014,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hitpoints: 1
+--- !u!61 &1944997909
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944997905}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1 &1990724047
 GameObject:
   m_ObjectHideFlags: 0
@@ -3408,6 +4083,7 @@ GameObject:
   - component: {fileID: 2125660576}
   - component: {fileID: 2125660578}
   - component: {fileID: 2125660577}
+  - component: {fileID: 2125660579}
   m_Layer: 0
   m_Name: Blue_Brick (9)
   m_TagString: Untagged
@@ -3492,6 +4168,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2125660579
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125660575}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.07, y: 2.24}
+    newSize: {x: 4.07, y: 2.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.07, y: 2.24}
+  m_EdgeRadius: 0
 --- !u!1 &2131188556
 GameObject:
   m_ObjectHideFlags: 0
