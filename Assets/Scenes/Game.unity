@@ -131,6 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 16406591}
   - component: {fileID: 16406592}
+  - component: {fileID: 16406593}
   m_Layer: 0
   m_Name: Green_Brick (6)
   m_TagString: Untagged
@@ -202,6 +203,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &16406593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16406590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ad25519b2fd514584d47db42df58f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hitpoints: 1
 --- !u!1 &253093485
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,6 +226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 253093486}
   - component: {fileID: 253093487}
+  - component: {fileID: 253093488}
   m_Layer: 0
   m_Name: Green_Brick (3)
   m_TagString: Untagged
@@ -283,6 +298,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &253093488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253093485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ad25519b2fd514584d47db42df58f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hitpoints: 1
 --- !u!1 &387192801
 GameObject:
   m_ObjectHideFlags: 0
@@ -704,6 +732,7 @@ GameObject:
   m_Component:
   - component: {fileID: 549974022}
   - component: {fileID: 549974023}
+  - component: {fileID: 549974024}
   m_Layer: 0
   m_Name: Orange_Brick
   m_TagString: Untagged
@@ -775,6 +804,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &549974024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549974021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ad25519b2fd514584d47db42df58f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hitpoints: 1
 --- !u!1 &551668819
 GameObject:
   m_ObjectHideFlags: 0
@@ -1070,6 +1112,7 @@ GameObject:
   m_Component:
   - component: {fileID: 758350914}
   - component: {fileID: 758350915}
+  - component: {fileID: 758350916}
   m_Layer: 0
   m_Name: Green_Brick (5)
   m_TagString: Untagged
@@ -1141,6 +1184,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &758350916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758350913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ad25519b2fd514584d47db42df58f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hitpoints: 1
 --- !u!1 &863255729
 GameObject:
   m_ObjectHideFlags: 0
@@ -1151,6 +1207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 863255730}
   - component: {fileID: 863255731}
+  - component: {fileID: 863255732}
   m_Layer: 0
   m_Name: Orange_Brick (1)
   m_TagString: Untagged
@@ -1222,6 +1279,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &863255732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863255729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ad25519b2fd514584d47db42df58f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hitpoints: 1
 --- !u!1 &1108640044
 GameObject:
   m_ObjectHideFlags: 0
@@ -1315,6 +1385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1110147753}
   - component: {fileID: 1110147754}
+  - component: {fileID: 1110147755}
   m_Layer: 0
   m_Name: Green_Brick (1)
   m_TagString: Untagged
@@ -1386,6 +1457,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1110147755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110147752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ad25519b2fd514584d47db42df58f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hitpoints: 1
 --- !u!1 &1188707471
 GameObject:
   m_ObjectHideFlags: 0
@@ -1491,6 +1575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1216188598}
   - component: {fileID: 1216188599}
+  - component: {fileID: 1216188600}
   m_Layer: 0
   m_Name: Green_Brick
   m_TagString: Untagged
@@ -1562,6 +1647,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1216188600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216188597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ad25519b2fd514584d47db42df58f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hitpoints: 1
 --- !u!1 &1224955797
 GameObject:
   m_ObjectHideFlags: 0
@@ -1667,6 +1765,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1272523315}
   - component: {fileID: 1272523316}
+  - component: {fileID: 1272523317}
   m_Layer: 0
   m_Name: Green_Brick (7)
   m_TagString: Untagged
@@ -1738,6 +1837,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1272523317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272523314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ad25519b2fd514584d47db42df58f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hitpoints: 1
 --- !u!1 &1337863137
 GameObject:
   m_ObjectHideFlags: 0
@@ -2352,7 +2464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 634a4c1f78b544a44b67df8b1db5c5ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Projectil: {fileID: 0}
+  Projectil: {fileID: 551668819}
 --- !u!61 &1707632696
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2708,7 +2820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 634a4c1f78b544a44b67df8b1db5c5ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Projectil: {fileID: 0}
+  Projectil: {fileID: 551668819}
 --- !u!61 &1798068471
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2792,6 +2904,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1856205360}
   - component: {fileID: 1856205361}
+  - component: {fileID: 1856205362}
   m_Layer: 0
   m_Name: Green_Brick (2)
   m_TagString: Untagged
@@ -2863,6 +2976,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1856205362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856205359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ad25519b2fd514584d47db42df58f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hitpoints: 1
 --- !u!1 &1938377471
 GameObject:
   m_ObjectHideFlags: 0
@@ -3024,6 +3150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1944997906}
   - component: {fileID: 1944997907}
+  - component: {fileID: 1944997908}
   m_Layer: 0
   m_Name: Green_Brick (4)
   m_TagString: Untagged
@@ -3095,6 +3222,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1944997908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944997905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ad25519b2fd514584d47db42df58f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hitpoints: 1
 --- !u!1 &1990724047
 GameObject:
   m_ObjectHideFlags: 0
