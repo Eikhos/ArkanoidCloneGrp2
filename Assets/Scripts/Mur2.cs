@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Mur2 : MonoBehaviour
 {
@@ -13,5 +14,13 @@ public class Mur2 : MonoBehaviour
         GameObject.Find("ScoreG").GetComponent<TextMesh>().text = "" + Score;
         Instantiate(Projectil, GameObject.Find("Eject").GetComponent<Transform>().transform.position, Quaternion.identity);
         Destroy(collision.gameObject);
+    }
+
+    void Update()
+    {
+        if (Score == 10)
+        {
+            SceneManager.LoadScene("DefeatScreen");
+        }
     }
 }
