@@ -216,7 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07ad25519b2fd514584d47db42df58f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoints: 1
+  Hitpoints: 2
 --- !u!61 &16406594
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -412,7 +412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07ad25519b2fd514584d47db42df58f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoints: 1
+  Hitpoints: 2
 --- !u!61 &253093489
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1126,7 +1126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07ad25519b2fd514584d47db42df58f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoints: 1
+  Hitpoints: 3
 --- !u!61 &549974025
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1223,7 +1223,7 @@ PrefabInstance:
     - target: {fileID: 914694246781162367, guid: 7ccf61284fde0a040ab90437fdf2ce32,
         type: 3}
       propertyPath: speed
-      value: 10
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 9078023335243999906, guid: 7ccf61284fde0a040ab90437fdf2ce32,
         type: 3}
@@ -1645,7 +1645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07ad25519b2fd514584d47db42df58f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoints: 1
+  Hitpoints: 2
 --- !u!61 &758350917
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1767,7 +1767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07ad25519b2fd514584d47db42df58f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoints: 1
+  Hitpoints: 3
 --- !u!61 &863255733
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1814,12 +1814,12 @@ PrefabInstance:
     - target: {fileID: 1341200123088933275, guid: 2058761fe08c80c4cbe187e7cbb3b40f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.05
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: 1341200123088933275, guid: 2058761fe08c80c4cbe187e7cbb3b40f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.04
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 1341200123088933275, guid: 2058761fe08c80c4cbe187e7cbb3b40f,
         type: 3}
@@ -1865,6 +1865,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341200123088933275, guid: 2058761fe08c80c4cbe187e7cbb3b40f,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.88749987
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341200123088933275, guid: 2058761fe08c80c4cbe187e7cbb3b40f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1207592
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2058761fe08c80c4cbe187e7cbb3b40f, type: 3}
@@ -1945,7 +1955,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1108640044}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -15}
+  m_LocalPosition: {x: 0, y: 0, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2046,7 +2056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07ad25519b2fd514584d47db42df58f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoints: 1
+  Hitpoints: 2
 --- !u!61 &1110147756
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2290,7 +2300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07ad25519b2fd514584d47db42df58f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoints: 1
+  Hitpoints: 2
 --- !u!61 &1216188601
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2606,7 +2616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07ad25519b2fd514584d47db42df58f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoints: 1
+  Hitpoints: 2
 --- !u!61 &1272523318
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3852,7 +3862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07ad25519b2fd514584d47db42df58f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoints: 1
+  Hitpoints: 2
 --- !u!61 &1856205363
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4152,7 +4162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07ad25519b2fd514584d47db42df58f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoints: 1
+  Hitpoints: 2
 --- !u!61 &1944997909
 BoxCollider2D:
   m_ObjectHideFlags: 0
