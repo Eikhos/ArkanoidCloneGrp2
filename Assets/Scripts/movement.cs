@@ -21,8 +21,6 @@ public class movement : MonoBehaviour
             transform.Translate(0f, Input.GetAxis("Vertical") * speed * Time.deltaTime, 0f);  //(0f, 5f, 8f)
         else
             transform.Translate(0f, Input.GetAxis("Vertical2") * speed * Time.deltaTime, 0f);
-
-
-
+        SoundManager.PlaySound("BallBounce");
     }
 }

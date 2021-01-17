@@ -7,7 +7,7 @@ public class ScriptDefaite : MonoBehaviour
 {
     public void Restart ()
     {
-        SceneManager.LoadScene("LEVEL");
+        SceneManager.LoadScene("Game");
     }
     public void Quit ()
     {
